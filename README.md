@@ -87,19 +87,22 @@ Abre en tu navegador:
 
 ------------------------------------------------------------------------
 # Endpoints
+GET
 ``` GET
 http://localhost:3000/api/admin/reporte
 http://localhost:3000/api/maestro/alumnos
 ```
+POST
 ``` POST
 http://localhost:3000/api/maestro/crear-calificacion
 http://localhost:3000/api/auth/login
 
 ```
-``` POST
+PUT
+``` PUT
 http://localhost:3000/api/maestro/editar-calificacion
 ```
-
+DELETE
 ``` DELETE
 http://localhost:3000/api/admin/eliminar-calificacion/
 
